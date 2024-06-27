@@ -1,0 +1,27 @@
+.reiki-body {
+    font-family: 'Gill Sans', Arial, Helvetica, sans-serif, 'Trebuchet MS', sans-serif;
+    background-color: red;
+}
+.container-reiki {
+    width: 100%;
+    margin: left;
+    font-size: 30px;
+
+}
+.titulo-reiki {
+    text-align: center;
+    font-size: 40px;
+}
+.ul-reiki {
+    list-style-type: none;
+    padding: 22px;
+    margin: 22px;
+    font-size: 22px;
+}
+.li-reiki {
+    margin: 20px 0;
+    text-indent: -100px;
+    ::before {
+        padding-right: 10px;
+    }
+}

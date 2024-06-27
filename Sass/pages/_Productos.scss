@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.container-productos {
+    text-align: center;
+    margin: 20px;
+}
+.imagen-productos {
+    width: 300px;
+    border: 2px solid #c40808;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    :hover {
+    transform: scale(1.05);
+}
+}

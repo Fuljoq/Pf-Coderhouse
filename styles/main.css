@@ -1,0 +1,232 @@
+.icono {
+  margin: 0.2em;
+  font-size: 50px;
+}
+
+.body-contact {
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Trebuchet MS", sans-serif, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.container-productos {
+  text-align: center;
+  margin: 20px;
+}
+
+.imagen-productos {
+  width: 300px;
+  border: 2px solid #c40808;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.imagen-productos :hover {
+  transform: scale(1.05);
+}
+
+.body-servicios {
+  height: 100vh;
+  margin: 0;
+  color: #0968c7;
+  background-size: cover;
+  background-position: central;
+  font-size: 36px;
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Trebuchet MS", sans-serif, sans-serif;
+  font-size: 2rem;
+  background-color: #C8A2C8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-coach-ontologico {
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Trebuchet MS", sans-serif;
+}
+
+.container-ontologico {
+  width: 100%;
+  margin: auto;
+  font-size: 25px;
+}
+
+.body-coach-ontologico {
+  text-align: center;
+  font-size: 36px;
+}
+
+.ul-coach-ontologico {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+.li-coach-ontologico {
+  margin: 20px 0;
+  padding-left: 20px;
+  text-indent: -20px;
+}
+.li-coach-ontologico ::before {
+  padding-right: 10px;
+}
+
+.body-index {
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Trebuchet MS", sans-serif, sans-serif;
+  font-size: 2rem;
+  background-color: #C8A2C8;
+}
+
+.slides {
+  display: flex;
+  width: 80rem;
+  animation: slide 16s infinite;
+}
+.navbar-index{
+  position: absolute;
+  background-color: white;
+  top: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.titulo-index {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(1, 10, 10);
+}
+
+.contenedor-imagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-imagenes img {
+  margin: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.reiki-body {
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Trebuchet MS", sans-serif;
+  background-color: red;
+}
+
+.container-reiki {
+  width: 100%;
+  margin: left;
+  font-size: 30px;
+}
+
+.titulo-reiki {
+  text-align: center;
+  font-size: 40px;
+}
+
+.ul-reiki {
+  list-style-type: none;
+  padding: 22px;
+  margin: 22px;
+  font-size: 22px;
+}
+
+.li-reiki {
+  margin: 20px 0;
+  text-indent: -100px;
+}
+.li-reiki ::before {
+  padding-right: 10px;
+}
+
+.body-linfatico {
+  font-family: "Gill Sans", Arial, Helvetica, sans-serif, "Trebuchet MS", sans-serif;
+}
+
+.container-linfatico {
+  width: 100%;
+  margin: auto;
+  font-size: 25px;
+}
+
+.titulo-linfatico {
+  text-align: center;
+  font-size: 36px;
+}
+
+.h2-linfatico {
+  text-align: start;
+}
+
+.ul-linfatico {
+  padding: 0;
+  margin: 0;
+}
+
+.li-linfatico {
+  list-style-type: none;
+  margin: 20px 0;
+  padding-left: 20px;
+  font-size: 2.5rem;
+}
+.li-linfatico ::before {
+  padding-right: 10px;
+}
+
+.imagen-linfatico {
+  width: 40rem;
+}
+
+.body-cosmiatria {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+}
+
+.titulo-cosmiatria {
+  text-align: center;
+}
+
+.h2-cosmiatria {
+  text-align: left;
+}
+
+.ul-cosmiatria {
+  list-style-type: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 200%;
+}
+
+.li-cosmiatria {
+  margin: 20px 0;
+}
+
+/*
+body {
+    background-color: #C8A2C8;
+    display: flex 300;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+*/
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+.body-linfatico {
+    font-family: 'Gill Sans', Arial, Helvetica, sans-serif, 'Trebuchet MS', sans-serif;
+
+}
+.container-linfatico {
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+}
+.titulo-linfatico {
+    text-align: center;
+    font-size: 36px;
+}
+.h2-linfatico{
+  text-align: start;
+
+}
+.ul-linfatico {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+.li-linfatico {
+    margin: 20px 0;
+    padding-left: 20px;
+
+    font-size: 3rem;
+    ::before {
+        padding-right: 10px;
+    }
+}
+.imagen-linfatico{
+    width: 30rem;
+}
