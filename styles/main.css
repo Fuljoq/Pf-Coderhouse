@@ -84,20 +84,25 @@ body {
   font-size: 2rem;
   background-color: #C8A2C8;
 }
-
+.slider{
+  position: absolute;
+  top: 30rem;
+}
 .slides {
   display: flex;
-  width: 80rem;
-  animation: slide 16s infinite;
+  width: 140rem;
+  justify-content: space-around;
+
 }
 .navbar-index{
   position: absolute;
   background-color: white;
   top: 0;
+  right: 0;
 }
 
 .slide img {
-  width: 100%;
+  width: 18rem;
   height: auto;
   display: block;
 }
@@ -106,13 +111,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(1, 10, 10);
 }
-
+.navbar-brand-container{
+  width: 100%;
+}
+.navbar-brand-original {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: white;
+  height: 3rem;
+}
 .contenedor-imagenes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+.section{
+  position: relative;
+  top: 10rem;
+  height: 100%;
+}
 .contenedor-imagenes img {
   margin: 100px;
   max-width: 100%;
@@ -148,6 +166,7 @@ body {
 }
 
 .li-reiki {
+  list-style-type: none;
   margin: 20px 0;
   text-indent: -100px;
 }
@@ -208,7 +227,7 @@ body {
 }
 
 .ul-cosmiatria {
-  list-style-type: 0;
+  list-style-type: none;
   padding: 0;
   margin: 0;
   font-size: 200%;
